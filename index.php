@@ -52,14 +52,22 @@
        
         </main>
         <!--Main Layout-->
-<!--    contuct us form-->
-    <div class="row container-fluid">
+
+    <div class="row container-fluid" style="margin-top: 20px;">
+        <!--    contuct us form-->
         <div class="col-md-4">
             <?php include("includes/contactus.html"); ?>
             
         </div>
+
+
+<!--        help us form-->
+        <div class="col-md-8 mb-auto">
+            <?php include("includes/help.html");?>
+
+        </div>
     </div>
-    <!--    contuct us form-->
+
 
 <!--    footer -->
     <div style="margin-top: 20px;">
