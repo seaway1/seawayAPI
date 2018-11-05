@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><img src="images/logo.jpg" height="20px" width="20px" >seaway</title>
+    <title>seaway</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,6 +27,12 @@
     </head>
 
      <main>
+
+         <div class="container row">
+             <!--    ticket form -->
+             <?php include ("includes/ticketform.php");?>
+             <!--ticket form-->
+         </div>
           <div class="container">
             <!--Grid row-->
             <div class="row py-5">
@@ -44,6 +50,14 @@
        
         </main>
         <!--Main Layout-->
+<!--    contuct us form-->
+    <div class="row container-fluid">
+        <div class="col-md-4">
+            <?php include("includes/contactus.html"); ?>
+            
+        </div>
+    </div>
+    <!--    contuct us form-->
 
 </script>
 <!-- Optional JavaScript -->
