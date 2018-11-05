@@ -43,8 +43,10 @@
               <!--Grid column-->
             </div>
             <!--    Newsletter-->
+              <div>
 
                 <?php include("includes/services.html"); ?>
+              </div>
         </div>
             <!--Grid row-->
        
@@ -58,6 +60,13 @@
         </div>
     </div>
     <!--    contuct us form-->
+
+<!--    footer -->
+    <div style="margin-top: 20px;">
+
+        <?php include("includes/footer.html");  ?>
+    </div>
+<!--    footer-->
 
 </script>
 <!-- Optional JavaScript -->
