@@ -20,6 +20,8 @@
 
             <!-- Navbar -->
             <?php include("includes/nav.html"); ?>
+
+            <!-- landing page -->
             
             <?php include("includes/pageintro.html"); ?>
             
@@ -29,6 +31,7 @@
      <main>
 
          <div class="container row">
+
              <!--    ticket form -->
              <?php include ("includes/ticketform.php");?>
              <!--ticket form-->
@@ -43,8 +46,8 @@
               <!--Grid column-->
             </div>
             <!--    Newsletter-->
-              <div>
-
+              <div class="row col-md-12">
+                    <h2 class="card-header red-text text-center">What is Offered by SeawayTravellers?</h2>
                 <?php include("includes/services.html"); ?>
               </div>
         </div>
@@ -56,6 +59,7 @@
     <div class="row container-fluid" style="margin-top: 20px;">
         <!--    contuct us form-->
         <div class="col-md-4">
+            <a name="service"></a>
             <?php include("includes/contactus.html"); ?>
             
         </div>
