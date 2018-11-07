@@ -22,6 +22,11 @@
             <!-- Navbar -->
             <?php include("includes/nav.html"); ?>
 
+<<<<<<< HEAD
+=======
+            <!-- landing page -->
+            
+>>>>>>> 1b9dd0d34db4fe8aa6613c4804a43eb1c3a263eb
             <?php include("includes/pageintro.html"); ?>
             
 
@@ -31,6 +36,7 @@
 
 
          <div class="container row">
+
              <!--    ticket form -->
             <div class="row col-md-12 text-center">
                 <p>form to get ticket/book here</p>
@@ -48,6 +54,7 @@
               <!--Grid column-->
             </div>
             <!--    Newsletter-->
+
               <div class="row">
                   <div class="col-md-12 c blue-text card-body text-center text-uppercase font-weight-bold">
                       <h2>What is offered by Seaway Travellers? </h2>
@@ -64,6 +71,7 @@
     <div class="row container-fluid" style="margin-top: 20px;">
         <!--    contuct us form-->
         <div class="col-md-4">
+            <a name="service"></a>
             <?php include("includes/contactus.html"); ?>
             
         </div>
