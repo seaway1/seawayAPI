@@ -16,11 +16,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.13/css/mdb.min.css" rel="stylesheet">
 </head>
 <body>
+<a name="top"></a>
     <head>
 
             <!-- Navbar -->
             <?php include("includes/nav.html"); ?>
-            
+
             <?php include("includes/pageintro.html"); ?>
             
 
@@ -28,9 +29,13 @@
 
      <main>
 
+
          <div class="container row">
              <!--    ticket form -->
-             <?php include ("includes/ticketform.php");?>
+            <div class="row col-md-12 text-center">
+                <p>form to get ticket/book here</p>
+
+            </div>
              <!--ticket form-->
          </div>
           <div class="container">
@@ -43,13 +48,16 @@
               <!--Grid column-->
             </div>
             <!--    Newsletter-->
-              <div>
+              <div class="row">
+                  <div class="col-md-12 c blue-text card-body text-center text-uppercase font-weight-bold">
+                      <h2>What is offered by Seaway Travellers? </h2>
+                  </div>
 
                 <?php include("includes/services.html"); ?>
               </div>
         </div>
             <!--Grid row-->
-       
+
         </main>
         <!--Main Layout-->
 
@@ -62,13 +70,17 @@
 
 
 <!--        help us form-->
-        <div class="col-md-8 mb-auto">
+        <div class="col-md-8 mb-auto" id="help">
+
             <?php include("includes/help.html");?>
 
         </div>
     </div>
 
-
+<!--back to top link-->
+    <div class="row col-md-12 ">
+        <a href="#top" class=" mr-auto ml-auto btn btn-outline-info rounded btn-block z-depth-0 my-4 waves-effect" style="width:200px; margin-top: auto; margin-bottom: auto;">back to top</a>
+    </div>
 <!--    footer -->
     <div style="margin-top: 20px;">
 
