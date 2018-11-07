@@ -22,11 +22,8 @@
             <!-- Navbar -->
             <?php include("includes/nav.html"); ?>
 
-<<<<<<< HEAD
-=======
             <!-- landing page -->
-            
->>>>>>> 1b9dd0d34db4fe8aa6613c4804a43eb1c3a263eb
+
             <?php include("includes/pageintro.html"); ?>
             
 
@@ -72,6 +69,7 @@
         <!--    contuct us form-->
         <div class="col-md-4">
             <a name="service"></a>
+            <a name="help"></a>
             <?php include("includes/contactus.html"); ?>
             
         </div>
