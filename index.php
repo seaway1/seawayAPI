@@ -16,124 +16,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.13/css/mdb.min.css" rel="stylesheet">
     <!--  font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-      <!-- ticket form style -->
-          <style>   
-        
-        #body .fa-2px{
-            font-size: 2em;
-        }
-        #body .fa{
-            position: relative;
-            display:table-cell;
-            width: 60px;
-            height: 36px;
-            text-align: center;
-            vertical-align: middle;
-            font-size: 20px;
-        }
-        #body .main-menu:hover,
-        #body nav.main-menu.expanded{
-            width: 250px;
-            overflow: visible;
-
-        }
-        #body .main-menu{
-            background: #212121;
-            border-right: 1px solid white;
-            position:absolute;
-            top:0;
-            bottom:0;
-            height:100%;
-            left:0;
-            width:60px;
-            overflow: hidden;
-            transition: width 0.5s linear;
-            z-index: 1000;
-            -webkit-transform: translateZ(0) scale(1,1);
-        }
-        #body .main-menu > li{
-            margin:7px 0;
-
-        }
-        #body .main-menu li{
-            position: relative;
-            display: block;
-            width: 250px;
-        }
-        #body .main-menu li a{
-            position: relative;
-            display: table;
-            border-collapse: collapse;
-            border-spacing: 0;
-            color: #999;
-            font-family: Arial;
-            font-size:14px;
-            text-decoration: none;
-            -webkit-transform: translateZ(0) scale(1,1);
-            transition: all .1s linear;
-        }
-        #body .main-menu .nav-icon{
-            position: relative;
-            display:table-cell;
-            width: 60px;
-            height:36px;
-            text-align: center;
-            vertical-align: middle;
-            font-size: 18px;
-        }
-        #body .main-menu .nav-text{
-            position: relative;
-            display:table-cell;
-            vertical-align:middle;
-            width:190px;
-            font-family: tahoma;
-
-        }
-        #body .main-menu li.logout{
-            position: absolute;
-            left: 0;
-            bottom: 0;
-        }
-        #body .no-touch .scrollable.hover{
-            overflow-y: hidden;
-
-        }
-        #body .no-touch .scrollable.hover:hover{
-            overflow-y: auto;
-            overflow: visible;
-        }
-        #body a:hover, a:focus{
-            text-decoration: none;
-        }
-        #body nav{
-            user-select: none;
-        }
-        #body nav ul, nav li{
-            outline: 0;
-            margin: 0;
-            padding: 0;
-        }
-        #body .main-menu li:hover a,
-        #body nav.main-menu li.active a,
-        #body .dropdown-menu li a:hover,
-        #body .dropdown-menu li a:focus,
-        #body .dropdown-menu li a:hover,
-        #body .dropdown-menu .active a,
-        #body .dropdown-menu .active a:hover,
-        #body .dropdown-menu .active a:focus,
-        #body .no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
-        #body .no-touch .dashboard-page nav.dashboard-menu ul li.active a{
-            color: white;
-            background-color: #5fa2db;
-
-        }
-        .area{
-            float: left;
-            background: #e2e2e2;
-            width: 100%;
-            height:100%;
-        }
+    <style>
 
     </style>
 
@@ -168,8 +51,17 @@
             <!--Grid row-->
             <div class="row py-5">
               <!--Grid column-->
-              <div class="col-md-12 text-center">
-                <?php include 'includes/ticketmenu.html'; ?>
+              <div class="col-md-12" id="ticketform">
+<!--                  menu icons-->
+                  <div class="col-md-3">
+                        <?php include 'includes/ticketmenu.html';?>
+                  </div>
+
+<!--      load forms here-->
+                  <div class="col-md-10" #id="ticketforms">
+
+
+                  </div>
               </div>
               <!--Grid column-->
             </div>
