@@ -8,22 +8,28 @@
     <div class="card-body px-lg-5 pt-0">
 
         <!-- Form -->
-        <form class="text-center" style="color: #757575;">
+        <form class="text-center" method="POST" action="app/help.php" style="color: #757575;">
 
-            <!-- Email -->
+            <!-- Sender -->
             <div class="md-form">
-                <input type="email" id="materialLoginFormEmail" class="form-control">
-                <label for="materialLoginFormEmail">E-mail</label>
+                <input type="email" name="sender" id="materialLoginFormSender" class="form-control" placeholder=" Your Email">
+                <!-- <label for="materialLoginFormSender">Email</label> -->
+            </div>
+
+            <!-- Subject -->
+            <div class="md-form">
+                <input type="text" name="subject" id="materialLoginFormSubject" class="form-control" placeholder="Subject">
+                <!-- <label for="materialLoginFormSubject">Subject</label> -->
             </div>
 
             <!--Message-->
             <div class="md-form mr-auto">
-                <textarea type="text" id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
-                <label for="materialContactFormMessage">Your Problem</label>
+                <textarea type="text" name="message" id="materialContactFormMessage" class="form-control md-textarea" rows="3" placeholder="Message"></textarea>
+                <!-- <label for="materialContactFormMessage">Your Problem</label> -->
             </div>
 
-            <!-- Sign in button -->
-            <button class="btn btn-outline-info rounded btn-block my-4 waves-effect z-depth-0" type="submit">Request Help</button>
+            <!-- Button -->
+            <button class="btn btn-outline-info rounded btn-block my-4 waves-effect z-depth-0" type="submit" name="help">Request Help</button>
 
         </form>
         <!-- Form -->

@@ -37,28 +37,60 @@
 
      <main>
 
-
-         <div class="container">
-
-             <!--    ticket form -->
-            <div class="row py-5 col-md-12 text-center">
-                <p>form to get ticket/book here</p>
-
-            </div>
-             <!--ticket form-->
-         </div>
-          <div class="container">
+   <div class="container">
             <!--Grid row-->
             <div class="row py-5">
               <!--Grid column-->
               <div class="col-md-12" id="ticketform">
 <!--                  menu icons-->
-                  <div class="col-md-3">
+                  <div class="col-md-12">
                         <?php include 'includes/ticketmenu.html';?>
                   </div>
+         <div class="container">
+
+             <!--    ticket form -->
+            <div class="row py-5 col-md-12 text-center">
+               
+
+
+                <form>
+                        <div class="form-row align-items-center">
+                            <div class="col-auto">
+                                 <label class="sr-only" for="inlineFormInput">Name</label>
+                                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+                            </div>
+                            <div class="col-auto">
+                                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">@</div>
+                                </div>
+                                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                            </div>
+                            </div>
+                            <div class="col-auto">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                                <label class="form-check-label" for="autoSizingCheck">
+                                Remember me
+                                </label>
+                            </div>
+                            </div>
+                            <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                            </div>
+                     </form>
+                </div>
+        
+
+            </div>
+             <!--ticket form-->
+         </div>
+       
 
 <!--      load forms here-->
                   <div class="col-md-10" #id="ticketforms">
+                      
 
 
                   </div>
