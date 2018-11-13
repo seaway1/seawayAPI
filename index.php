@@ -51,35 +51,7 @@
              <!--    ticket form -->
             <div class="row py-5 col-md-12 text-center">
                
-
-
-                <form>
-                        <div class="form-row align-items-center">
-                            <div class="col-auto">
-                                 <label class="sr-only" for="inlineFormInput">Name</label>
-                                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
-                            </div>
-                            <div class="col-auto">
-                                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
-                            <div class="input-group mb-2">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">@</div>
-                                </div>
-                                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-                            </div>
-                            </div>
-                            <div class="col-auto">
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-                                <label class="form-check-label" for="autoSizingCheck">
-                                Remember me
-                                </label>
-                            </div>
-                            </div>
-                            <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-2">Submit</button>
-                            </div>
-                     </form>
+                    <?php include('includes/forms.html')?>
                 </div>
         
 
@@ -89,7 +61,7 @@
        
 
 <!--      load forms here-->
-                  <div class="col-md-10" #id="ticketforms">
+                  <div class="col-md-10" #id="ticketfo">
                       
 
 
@@ -103,6 +75,9 @@
                   <div class="col-md-12 c blue-text card-body text-center text-uppercase font-weight-bold">
                       <h2>What is offered by Seaway Travellers? </h2>
                   </div>
+                  <script>
+                      
+                  </script>
 
                 <?php include("includes/services.html"); ?>
               </div>
@@ -140,8 +115,8 @@
         <?php include("includes/footer.html");  ?>
     </div>
 <!--    footer-->
-
-</script>
+<!-- onclick js sources -->
+<script src="js/ticketforms.js"></script>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

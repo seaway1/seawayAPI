@@ -8,6 +8,10 @@ header {
     height: 45%;
 }
 
+.invisible {
+    display: none;
+}
+
 @media (max-width: 740px) {
     html,
     body,
